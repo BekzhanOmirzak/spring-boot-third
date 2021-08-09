@@ -14,10 +14,14 @@ public class Application {
         SpringApplication.run(Application.class, args);
     }
 
-
     @GetMapping
     public String getString() {
         return "This is a new string from";
+    }
+
+    @GetMapping("/users")
+    public String getUsers() {
+        return "Imagine you are getting the list of users";
     }
 
 
