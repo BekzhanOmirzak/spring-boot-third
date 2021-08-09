@@ -24,5 +24,9 @@ public class Application {
         return "Imagine you are getting the list of users";
     }
 
+    @GetMapping("/posts")
+    public String getPosts() {
+        return "Imagine you are getting the lise of posts";
+    }
 
 }
