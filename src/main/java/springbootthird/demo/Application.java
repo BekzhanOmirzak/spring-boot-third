@@ -29,4 +29,10 @@ public class Application {
         return "Imagine you are getting the lise of posts";
     }
 
+    @GetMapping("/girls")
+    public String getGirls(){
+        return "Imagine you are together with bunch of girls";
+    }
+
+
 }
